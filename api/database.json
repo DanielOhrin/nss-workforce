@@ -1,0 +1,186 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell Inspiron 1700",
+            "year": 2017
+        },
+        {
+            "id": 3,
+            "model": "Alienware Gaming X",
+            "year": 2020
+        },
+        {
+            "id": 4,
+            "model": "Asus Worktop",
+            "year": 2020
+        },
+        {
+            "id": 5,
+            "model": "BananaBook Apprentice",
+            "year": 2015
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "age": 24,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "departmentId": 1,
+            "locationId": 3
+        },
+        {
+            "id": 2,
+            "age": 34,
+            "firstName": "Ipsum",
+            "lastName": "Lorem",
+            "computerId": 4,
+            "departmentId": 3,
+            "locationId": 4
+        },
+        {
+            "id": 3,
+            "age": 42,
+            "firstName": "Solor",
+            "lastName": "Dit Amet",
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "age": 23,
+            "firstName": "Rndum",
+            "lastName": "Lterrs",
+            "computerId": 5,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "age": 19,
+            "firstName": "Daniel",
+            "lastName": "Ohrin",
+            "computerId": 2,
+            "departmentId": 1,
+            "locationId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Sales"
+        },
+        {
+            "id": 3,
+            "name": "UI/UX"
+        },
+        {
+            "id": 4,
+            "name": "Quality Control"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Memphis"
+        },
+        {
+            "id": 2,
+            "name": "Nashville"
+        },
+        {
+            "id": 3,
+            "name": "Hermitage"
+        },
+        {
+            "id": 4,
+            "name": "Cookeville"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Dunder Mifflin"
+        },
+        {
+            "id": 3,
+            "name": "Space X"
+        },
+        {
+            "id": 4,
+            "name": "Microsoft"
+        },
+        {
+            "id": 5,
+            "name": "Apple"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 2,
+            "customerId": 3,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 4,
+            "customerId": 5,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 5
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 1
+        },
+        {
+            "id": 7,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 8,
+            "customerId": 2,
+            "employeeId": 5
+        },
+        {
+            "id": 9,
+            "customerId": 5,
+            "employeeId": 3
+        },
+        {
+            "id": 10,
+            "customerId": 4,
+            "employeeId": 4
+        }
+    ]
+}

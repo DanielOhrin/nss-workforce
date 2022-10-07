@@ -1,0 +1,29 @@
+#employees-section, #customers-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.employee {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex: 0 1 12.5%;
+    background-color: lavenderblush;
+    border: thin solid black;
+    box-shadow: 1.25px 1px;
+    text-shadow: 0.25px 0.5px;
+    padding: 1rem;
+    padding-top: 0.75rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+}
